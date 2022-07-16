@@ -1,0 +1,20 @@
+{
+  "name": "canberklag",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^19.0.8"
+  },
+  "dependencies": {
+    "keypress": "^0.2.1",
+    "uiohook-napi": "^1.2.0"
+  }
+}
