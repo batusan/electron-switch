@@ -1,11 +1,17 @@
 {
-  "name": "canberklag",
+  "name": "electron-switch",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "build": {
+    "win": {
+      "requestedExecutionLevel": "requireAdministrator",
+      "icon": "favicon.ico"
+    }
   },
   "keywords": [],
   "author": "",
@@ -15,6 +21,7 @@
   },
   "dependencies": {
     "keypress": "^0.2.1",
+    "node-gyp-build": "^4.5.0",
     "uiohook-napi": "^1.2.0"
   }
 }

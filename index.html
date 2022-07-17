@@ -2,14 +2,41 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>'%%152%!1241.24</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div id="ui">
-      CANBERK
+      <div class="form__group field">
+        <input
+          type="number"
+          class="form__field"
+          placeholder="Set Millisecond"
+          name="delayTime"
+          id="msdelay"
+          value="3000"
+          required
+        />
+        <label for="name" class="form__label">Millisecond</label>
+      </div>
+      <h6>Default selected : Q and 3000ms ty</h6>
+      <select id="keys" name="keys" class="minimal"></select>
+      <div>
+        <a href="#" id="btn_save">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          SAVE
+        </a>
+      </div>
     </div>
     <script src="./renderer.js"></script>
     <script
